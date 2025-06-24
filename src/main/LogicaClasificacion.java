@@ -118,7 +118,7 @@ public class LogicaClasificacion {
                 impares.add(numero);
             }
         }
-        List<Integer> resultado = new ArrayList<>();
+        List<Integer> resultado  = new ArrayList<>();
         while (!pares.isEmpty()) {
             resultado.add(pares.pop());
 
